@@ -5,7 +5,7 @@
 
 Each student has a dedicated single-server Kubernetes cluster based on upstream K8s and Centos. You will run your deployments on this server throughout the rest of the training. It's basically just a K8s master node with plenty of resources and the master taint removed so you can run non-admin workloads on it. 
 
-#####Steps:
+####Steps:
 
 1: SSH in to your training server. Your instructor will have given you the IP address and the password on the lab sheet handed out at the start of class. 
 
@@ -25,6 +25,6 @@ Each student has a dedicated single-server Kubernetes cluster based on upstream 
 
 We need to install the Harness Kubernetes delegate on your training cluster. Download the installation yamls from the Harness App then install it. 
 
-#####Steps:
+####Steps:
 
 1. Log in to https://app.harness.io with the login credentials provided by the 
