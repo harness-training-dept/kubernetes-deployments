@@ -11,7 +11,7 @@ Each student has a dedicated single-server Kubernetes cluster based on upstream 
 
 ````ssh centos@<training server IP>````
 
-2. Examine your kubernetes environment. kubectl is installed and configured for the centos user. Run a few kubectl commands to get to know your install.
+2. Examine your kubernetes environment. kubectl is installed and configured for the centos user. Run a few kubectl commanduds to get to know your install.
 
 ````kubectl get pods -n kube-system````
 
@@ -19,7 +19,13 @@ Each student has a dedicated single-server Kubernetes cluster based on upstream 
 
 ````kubectl get ns````
 
-3. Leave your SSH session open and go on to Lab 2.
+3. Leave your SSH session open and switch over to your Chrome web browser and login to https://app.harness.io with the user name and password from your lab sheet. 
+
+4. Click around and explore the GUI. The main dashboard page will be more exciting later in the class once you and your fellow students have done a few more deployments. Please note depending on the user role you have in your organization's Harness implementation you may not have access to the menus and settings you see here in our training setu5p. 
+
+5. We will be visiting the Setup menu most often during class. Click in there and explore the different connectors and setting options. 
+
+6. Ask your instructor if you don't understand the use of any configuration or dashboard.
 
 ## Lab 2 - Install the Harness Kubernetes Delegate
 
