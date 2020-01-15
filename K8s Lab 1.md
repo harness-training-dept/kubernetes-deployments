@@ -27,4 +27,18 @@ We need to install the Harness Kubernetes delegate on your training cluster. Dow
 
 **Steps:**
 
-1. Log in to https://app.harness.io with the login credentials provided by the 
+1. Log in to https://app.harness.io with the login credentials provided on the student lab handout.
+
+2. Navigate to the yaml download by following this path: Setup -> Harness Delegates -> Download Delegate -> Kubernetes Yaml. That will kick off a download of the tar.gz'ed yaml file to your local workstation. 
+
+3. scp the downloaded file to your training server. 
+
+````scp ./harness-delegate-kubernetes.tar.gz centos@<training server IP>:/home/centos/.````
+
+Or you can also just unzip the file locally and then copy and paste the contents of harness-delegate.yaml to the same file name on your training server. 
+
+4. If necessary ssh back in to your training server and run the following commands to unzip the yaml and then install the delegate:
+
+````tar zxvf ./harness-delegate-kubernetes.tar.gz````
+
+````kubectl apply -f ./harness-delegate-kubernetes/harness-delegate.yaml````
