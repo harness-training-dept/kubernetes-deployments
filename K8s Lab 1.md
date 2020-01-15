@@ -73,3 +73,6 @@ Feel free to add tags as in the picture. In the "real" world Delegate Tags are u
 
 ![Application_name](/images/application_nm.png)
 
+Click submit. Harness will create your Application and then take you its components. 
+
+2. Now that we have an Application we can start to build our deployment. First up lets setup the Service we will be deploying. Click on Services then click on Add Service. Give your service a name and description, then make sure Deployment Type is set to Kubernetes. 
