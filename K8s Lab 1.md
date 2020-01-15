@@ -57,4 +57,4 @@ Once that command completes go back to the app.harness.io GUI and go to Setup ->
 
 ![Delegate View](/images/delegate_view.png)
 
-5.
+Feel free to add tags as in the picture. In the "real" world Delegate Tags are used to identify Delegates for both deployments and for Delegate specific configurations. Now that the Delegate is installed we can start to configure our first Deployment in subsequent labs. 
