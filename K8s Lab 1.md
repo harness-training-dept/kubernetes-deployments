@@ -64,3 +64,12 @@ Once that command completes go back to the app.harness.io GUI and go to Setup ->
 ![Delegate View](/images/delegate_view.png)
 
 Feel free to add tags as in the picture. In the "real" world Delegate Tags are used to identify Delegates for both deployments and for Delegate specific configurations. Now that the Delegate is installed we can start to configure our first Deployment in subsequent labs. 
+
+## Lab 3 - Building Your First Kubernetes Deployment
+
+**Steps**
+
+1. Switch or login to your Harness GUI. Navigate to Setup at the top left. First we will need to setup an Application for our deployment. Then click + Add Application. Be sure to include your name in your Application name to find it easily.
+
+![Application_name](/images/application_name.png)
+
