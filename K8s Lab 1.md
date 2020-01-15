@@ -71,5 +71,5 @@ Feel free to add tags as in the picture. In the "real" world Delegate Tags are u
 
 1. Switch or login to your Harness GUI. Navigate to Setup at the top left. First we will need to setup an Application for our deployment. Then click + Add Application. Be sure to include your name in your Application name to find it easily.
 
-![Application_name](/images/application_name.png)
+![Application_name](/images/application_nm.png)
 
