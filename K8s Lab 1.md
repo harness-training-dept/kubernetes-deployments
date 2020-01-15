@@ -33,7 +33,7 @@ We need to install the Harness Kubernetes delegate on your training cluster. Dow
 
 ![Delegate Setup](/images/delegate_setup.png)
 
-That will kick off a download of the tar.gz'ed yaml file to your local workstation. 
+Click Submit and that will kick off a download of the tar.gz file to your local workstation. 
 
 3. scp the downloaded file to your training server. 
 
@@ -47,12 +47,14 @@ Or you can also just unzip the file locally and then copy and paste the contents
 
 ````kubectl apply -f ./harness-delegate-kubernetes/harness-delegate.yaml````
 
-Note if you did the copy and paste version of step 3, you only need to run the kubectl command above.
+_Note if you did the copy and paste version of step 3, you only need to run the kubectl command above._
 
 4. Verify that the Delegate is installed:
 
 ````kubectl get pods -n harness-delegate````
 
-Once that command says it's ready go back to the app.harness.io GUI and go to Setup -> Harness Delegates. There you should see your delegate as well as those of your fellow students. If you don't see it and the pod is ready on the command line, hit refresh on the browser a few times - it will show.
+Once that command completes go back to the app.harness.io GUI and go to Setup -> Harness Delegates. There you should see your delegate as well as those of your fellow students. If you don't see it and the pod is ready on the command line, hit refresh on the browser - it will show.
+
+![Delegate View](/images/delegate_view.png)
 
 5.
