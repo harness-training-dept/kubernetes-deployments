@@ -33,7 +33,7 @@ We need to install the Harness Kubernetes delegate on your training cluster. Dow
 
 **Steps:**
 
-1. Point your Chrome web browser to <a href="https://app.harness.io" _target="blank">Harness App Login</a> with the login credentials provided on the student lab handout.
+1. Point your Chrome web browser to <a href="https://app.harness.io" target="_blank">Harness App Login</a> with the login credentials provided on the student lab handout.
 
 2. Navigate to the yaml download by following this path: Setup -> Harness Delegates -> Download Delegate -> Kubernetes Yaml. Fill out the form to give your delegate a name. This is how it will be listed in the Harness GUI, so please be sure to include your name / student number so you can easily identify it. Leave the profile line blank. 
 
