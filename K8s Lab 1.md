@@ -37,7 +37,7 @@ We need to install the Harness Kubernetes delegate on your training cluster. Dow
 
 2. Navigate to the Delegate download by following this path: Setup -> Harness Delegates -> Download Delegate -> Kubernetes Yaml. Fill out the form to give your delegate a name. This is how it will be listed in the Harness GUI, so please be sure to include your name / student number so you can easily identify it later. Leave the profile line blank. 
 
-![Delegate Setup](/images/delegate_setup.png)
+![Delegate Setup](/images/delegate_setup-2.png)
 
 Click Submit and that will kick off a download of the tar.gz file to your local workstation. 
 
