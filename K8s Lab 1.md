@@ -67,6 +67,8 @@ Feel free to add tags as in the picture. In the "real" world Delegate Tags are u
 
 ## Lab 3 - Setting Up Kubernetes Cloud Provider
 
+Now that we have our Delegate installed we need to add our Kubernetes cluster as a cloud provider in Harness. 
+
 ## Lab 4 - Building Your First Kubernetes Deployment
 
 **Steps**
